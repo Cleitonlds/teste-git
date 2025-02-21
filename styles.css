@@ -10,7 +10,7 @@ body {
     min-height: 200px;
     max-height: 400px;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #F6F6F6;
     border: solid black 2px;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,8 +18,10 @@ body {
 }
 
 .card img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    gap: 5px;
 }
 
 .botao-comprar{
@@ -27,9 +29,10 @@ body {
     background-color: #C4FCBE;
     color: #1CDA07;
     font-family: "Inter", serif;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 8px;
     gap: 5px;
+    color: white;
 }
 
 .container {
@@ -44,7 +47,7 @@ body {
 }
 
 nav {
-    background-color:whitesmoke;
+    background-color:#f8a834;
 
 }
 
@@ -55,4 +58,10 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+
 }
