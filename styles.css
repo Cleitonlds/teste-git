@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.card {
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 400px;
+    text-align: center;
+    border: solid black 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.botao-comprar{
+
+    background-color: #C4FCBE;
+    color: #1CDA07;
+    font-family: "Inter", serif;
+    border-radius: 5px;
+    padding: 8px;
+    gap: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto; /* salvador da pátria das centralização de div*/
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    gap: 20px;
+    border: solid black 5px;
+}
